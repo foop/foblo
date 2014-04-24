@@ -1,0 +1,141 @@
+
+
+* {
+	font-family: 'Maven Pro', sans-serif;
+	/*font-family: 'Allerta', sans-serif;	*/
+	/*font-family: 'Trade Winds', cursive;*/
+}
+
+body {
+	color: #333;
+}
+
+a {
+	color: #444;
+}
+
+
+.navbar-inverse .navbar-brand {
+	color: #000;
+	font-size: 1.5em;
+}
+
+.navbar {
+	background-color: #9292f2;
+	background-image: none;
+	font-color: #222;
+}
+
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #000;
+	font-size: 1.2em; 
+	text-shadow: initial;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	background-color: #4242f2;
+	color: #000;
+	text-shadow: 5px 5px 10px #fff;
+	background-image: none;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background-color: #6262f2;
+	color: #000;
+	text-shadow: 5px 5px 10px #fff;
+	background-image: none;
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover {
+	background-color: #3232f2;
+	color: #fff;
+	background-image: none;
+}
+
+
+.post {
+	margin-top: 30px;
+}
+
+article {
+	/*font-family: 'Allerta', sans-serif;	*/
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+body > .container {
+	padding: 60px 0px 60px 15px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 30px;
+	/*background-color: #ff5262;*/
+	/*background-color: #aaffff;*/
+	/*background-color: #22bb44;*/
+	background-color: #ffba10;
+}
+
+footer > .container {
+	color: #333;
+	padding-top: 7px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+#gnu-cage {
+	margin-top: 50px;
+}
+
+
+/* login */
+
+.login {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.form-signin {
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+  font-weight: normal;
+}
+
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
